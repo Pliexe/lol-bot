@@ -13,4 +13,4 @@ bot.on('message', message => {
     if(message.content.toLowerCase() === 'hello') message.channel.send("fuck you");
 });
 
-bot.login(env.process.TOKEN);
+bot.login(process.env.TOKEN);
